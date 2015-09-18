@@ -24,8 +24,8 @@ for (f=0; f<list.length; f++) {
 			run("Fill Holes", "slice");
 			run("Set Measurements...", "area mean integrated limit redirect=" + baseName + "-0001" + " decimal=3");
 			run("Analyze Particles...", "size=2E-8-Infinity circularity=0.10-0.7 show=Outlines display clear add");
-			saveAs("Measurements", dir2+baseName+".xls"); 
-			print(dir2+baseName+".xls"); 
+			saveAs("Measurements", dir2+baseName+".csv"); 
+			print(dir2+baseName+".csv"); 
 		      while (nImages>0) { 
 		          selectImage(nImages); 
 		          close(); 
