@@ -12,7 +12,6 @@ colors=linspecer(4);
 
 table_mean=zeros(length(X),length(Y));
 table_std=zeros(length(X),length(Y));
-   global GKC_e; 
 
 
 odes=[];
